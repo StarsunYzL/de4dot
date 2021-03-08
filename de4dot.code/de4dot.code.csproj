@@ -6,6 +6,10 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);SYSLIB0011</NoWarn>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Update="deobfuscators\Agile_NET\vm\v2\CsvmResources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -23,9 +27,9 @@
   <ItemGroup>
     <Reference Include="System.Runtime.Remoting" Condition=" '$(De4DotNetFramework)' == 'true' " />
   </ItemGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="4.7.0" Condition=" '$(De4DotNetFramework)' != 'true' " />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.1" Condition=" '$(De4DotNetFramework)' != 'true' " />
   </ItemGroup>
 
 </Project>
