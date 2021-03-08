@@ -13,7 +13,7 @@ It uses [dnlib](https://github.com/StarsunYzL/dnlib/) to read and write assembli
 Binaries
 ========
 
-[Latest release](https://github.com/StarsunYzL/de4dot/releases).
+Get binaries from the build server [![](https://github.com/StarsunYzL/de4dot/workflows/GitHub%20CI/badge.svg)](https://github.com/StarsunYzL/de4dot/actions).
 
 It's FREE but there's NO SUPPORT
 ================================
