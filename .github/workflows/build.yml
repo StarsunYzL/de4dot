@@ -27,23 +27,11 @@ jobs:
       - uses: actions/upload-artifact@v1
         if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
         with:
-          name: de4dot-net35
-          path: Release/net35
+          name: de4dot-net48
+          path: Release/net48
 
       - uses: actions/upload-artifact@v1
         if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
         with:
-          name: de4dot-net45
-          path: Release/net45
-
-      - uses: actions/upload-artifact@v1
-        if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
-        with:
-          name: de4dot-netcoreapp2.1
-          path: publish-netcoreapp2.1
-
-      - uses: actions/upload-artifact@v1
-        if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
-        with:
-          name: de4dot-netcoreapp3.1
-          path: publish-netcoreapp3.1
+          name: de4dot-net5.0
+          path: Release/net5.0
