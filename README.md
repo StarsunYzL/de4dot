@@ -1,4 +1,7 @@
-**The original project has been archived, this is the final code, with a few modifications for personal reasons.**
+Note
+====
+
+The original project has been archived, this is the final code, with a few modifications for personal reasons.
 
 Description
 ===========
